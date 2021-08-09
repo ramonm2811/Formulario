@@ -1,0 +1,68 @@
+body{
+    background-color: #FDBEFF ;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.contenedor{
+    width: 900px;
+    height: 500px;
+    border-radius: 15px;
+    margin: 120px auto 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.left, .right{
+    margin: auto;
+    display: inline-block;
+    width: 450px;
+}
+
+.right{
+    color: #fff;
+    float: right;
+    height: 500px;
+    border-radius: 0px 15px 15px 0px;
+    background: rgb(208,0,0);
+    background: linear-gradient(90deg, rgba(208,0,0,1) 0%, rgba(0,40,91,0.700717787114846) 0%, rgba(221,43,47,0.6951155462184874) 0%, rgba(246,0,0,1) 100%);
+}
+
+.contenedor .right .caja{
+    text-align: center;
+    margin: 150px 50px;
+    font-size: 120%;
+}
+
+.left{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.left i{
+    border: grey solid 1px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 8px;
+}
+
+button{
+    background: rgb(208,0,0);
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border-style: none;
+}
+
+input{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(196, 196, 196, 0.404);
+}
